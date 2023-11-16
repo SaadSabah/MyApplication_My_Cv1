@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/my_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Saad Maseer"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+
+    <ImageView
+        android:id="@+id/my_photo"
+        android:layout_width="222dp"
+        android:layout_height="184dp"
+        android:layout_gravity="left"
+        android:src="@drawable/myphoto22" />
+
+    <TextView
+        android:id="@+id/my_age"
+        android:text="40 år"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/my_town"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Malmö"
+        android:textSize="20dp"
+        android:layout_gravity="left"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/my_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APP Utvecklare"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_gravity="left"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+    <TextView
+        android:id="@+id/about_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jag är en mångsidig och skämtsam person som älskar att skapa en positiv atmosfär omkring mig. När det är dags att skoja, är jag den första att dra ett roligt skämt eller starta en lekfull diskussion. Men när det kommer till arbete och projekt, är jag extremt hängiven och fokuserad. Jag tror på att kombinera arbete och nöje för att få det bästa resultatet. Mitt hjärta slår för samarbete, och jag trivs bäst när jag arbetar tillsammans med andra talangfulla individer. Jag är övertygad om att det är genom samarbete och utbyte av idéer som vi kan skapa de mest innovativa lösningarna. Min själ är fylld med optimism och positiv energi. Jag ser alltid det ljusa i varje situation och tror på möjligheter och potential. Denna positiva inställning är en drivkraft som hjälper mig att övervinna utmaningar och inspirera andra omkring mig.På min fritid är jag en hängiven dataspelare, och jag älskar att förlora mig i fantastiska virtuella världar. Jag är också en ivrig bokläsare och älskar att utforska olika genrer och perspektiv genom litteraturen. Dessutom är jag ständigt hungrig efter ny kunskap och utbildning. Jag trivs med att lära mig nya färdigheter och upptäcka nya intressen.En av mina största passioner är att möta nya människor och utforska deras kultur och livsstil. Jag ser varje möte som en möjlighet att lära mig något nytt och bredda min horisont. Mångfalden i världen fascinerar mig, och jag värdesätter varje ny vänskap och inblick jag får.Jag strävar ständigt efter kunskap och ser livet som en evig resa mot insikter och nya erfarenheter. Jag älskar att utmana mig själv och våga utanför min komfortzon för att växa som individ. Varje dag är en ny chans att upptäcka något nytt och dela den glädje och kunskap med andra"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_gravity="right"/>
+
+</ScrollView>
+
+</LinearLayout>
